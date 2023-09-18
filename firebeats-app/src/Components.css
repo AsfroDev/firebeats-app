@@ -1,0 +1,177 @@
+.Space {
+    width: 100%;
+    height: 0.2rem;
+}
+
+.Container {
+    padding: 0 1.2em;
+    box-sizing: border-box;
+    margin: 0.6em auto;
+}
+
+.SongContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5em;
+    overflow-y: scroll;
+    max-height: 320px;
+}
+
+.SearchInput {
+    outline: none;
+    background-color: #222;
+    border: 1px solid #222;
+    border-radius: 1em;
+    padding: 0.8rem 1em;
+    width: calc(100% - 2.2em);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    transition: 0.2s;
+}
+
+.SearchInputActive {
+    background-color: transparent;
+    border: 1px solid #ffffffbe;
+    transition: 0.7s;
+}
+
+.SearchInput>input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: 0.7s;
+}
+
+.SearchInput>img {
+    object-fit: cover;
+    filter: invert(1);
+    width: 1em;
+    aspect-ratio: 1/1;
+    opacity: 50%;
+    background-color: transparent;
+}
+
+.MediaLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    overflow-x: scroll;
+}
+
+.MediaBoxes {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    overflow-x: scroll;
+}
+
+.BoxMedia {
+    aspect-ratio: 12/9;
+    min-width: 200px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em;
+}
+
+.BoxMedia>h1 {
+    margin-bottom: 0em;
+}
+
+.BoxMedia>h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    opacity: 98%;
+}
+
+.BoxMedia>h2 {
+    max-width: 60%;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2em;
+    opacity: 98%;
+    background-color: none;
+    border-radius: 10px;
+    padding: 0.8em;
+    padding-left: 0;
+    text-align: left;
+}
+
+.SongCard {
+    aspect-ratio: 6/1;
+    min-width: 100px;
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.LCard {
+    width: 20%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.MCard {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.2em;
+}
+
+.MCard>p {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    padding-left: 2em;
+}
+
+.TittleTextSongCard {
+    font-weight: bolder;
+}
+
+.DateTextSongCard {
+    font-weight: lighter;
+    font-size: 0.8em;
+    padding-left: 3em;
+}
+#DateTextSongCard {
+    padding-left: 2.5em;
+}
+
+.RCard {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    padding-right: 0em;
+    align-items: center;
+}
+
+.RCard>img {
+    object-fit: cover;
+    filter: invert(1);
+    width: 2em;
+    aspect-ratio: 1/1;
+    opacity: 80%;
+    padding: 8px;
+}
+
+.RCard:active>img {
+    background-color: #999;
+    border-radius: 100%;
+}

@@ -1,0 +1,118 @@
+.Footer {
+    width: 100%;
+    margin-top: 2.5em;
+    background-color: #222;
+    box-sizing: border-box;
+}
+
+.TFooter {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    padding-top: 2em;
+    justify-content: start;
+}
+
+.TFooter>img {
+    aspect-ratio: 1/1;
+    width: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+    transform: translateY(-3px);
+    margin-right: 0.3em;
+}
+
+.Mfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1em;
+    padding-left: 1.5em;
+}
+
+
+.Mfooter>img {
+    object-fit: cover;
+    filter: invert(1);
+    width: 2.5em;
+    aspect-ratio: 1/1;
+    opacity: 50%;
+    background-color: transparent;
+}
+
+.Mfooter>img:nth-child(1) {
+    width: 1.7em;
+    padding: 6px;
+}
+
+.BFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 1em;
+}
+
+.ContatoCardFooter {
+    width: 40%;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.LinksCardFooter {
+    width: 40%;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    gap: 0.8em;
+
+}
+
+.LinksCardFooter>p,
+a {
+    padding-left: 3em;
+    margin: 0;
+}
+
+.LinksCardFooter>a {
+    color: #888;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.TextCardFooter {
+    margin-top: 0;
+}
+
+.TittleTextCardFooter {
+    margin: 0;
+}
+
+.TextCardFooter {
+    color: #888;
+}
+
+.InsideFooterCardText {
+    margin-bottom: 1em;
+}
+
+.FFooter {
+    box-sizing: border-box;
+    padding: 2em 10px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #66666648;
+}
+.FFooter>p{
+    margin: 0;
+    word-break: normal;
+    color: #888;
+    font-size: 0.8em;
+}

@@ -114,7 +114,7 @@ export function BeatsBox() {
     <>
       <div className="Container">
         <div className="Space"></div>
-        <h1>Descubra Novos Sons</h1>
+        <h1>Descubra novos sons</h1>
       </div>
 
       <div className="Container SongContainer">

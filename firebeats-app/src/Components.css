@@ -45,6 +45,8 @@
     background-color: transparent;
     outline: none;
     transition: 0.7s;
+    font-size: 16px;
+    color: #ffff;
 }
 
 .SearchInput>img {
@@ -146,12 +148,13 @@
 }
 
 .DateTextSongCard {
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 0.8em;
     padding-left: 3em;
 }
 #DateTextSongCard {
     padding-left: 2.5em;
+    opacity: 50%;
 }
 
 .RCard {
@@ -166,8 +169,8 @@
     object-fit: cover;
     filter: invert(1);
     width: 2em;
-    aspect-ratio: 1/1;
-    opacity: 80%;
+    transform: rotate(180deg) scaleY(-1);
+    opacity: 70%;
     padding: 8px;
 }
 

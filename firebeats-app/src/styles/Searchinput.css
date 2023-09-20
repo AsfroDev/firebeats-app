@@ -1,0 +1,39 @@
+.SearchInput {
+  outline: none;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 1em;
+  padding: 0.8rem 1em;
+  width: calc(100% - 2.2em);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s;
+}
+
+.SearchInputActive {
+  background-color: transparent;
+  border: 1px solid #ffffffbe;
+  transition: 0.7s;
+}
+
+.SearchInput > input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  transition: 0.7s;
+  font-size: 16px;
+  color: #ffff;
+}
+
+.SearchInput > img {
+  object-fit: cover;
+  filter: invert(1);
+  width: 1em;
+  aspect-ratio: 1/1;
+  opacity: 50%;
+  background-color: transparent;
+}

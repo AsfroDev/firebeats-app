@@ -1,0 +1,80 @@
+.SongsBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5em;
+  overflow-y: scroll;
+  max-height: 320px;
+}
+
+.SongCard {
+  aspect-ratio: 6/1;
+  min-width: 100px;
+  background-color: #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8em;
+}
+
+.LCard {
+  width: 20%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+.MCard {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.2em;
+}
+
+.MCard > p {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  padding-left: 2em;
+}
+
+.TittleTextSongCard {
+  font-weight: bolder;
+}
+
+.DateTextSongCard {
+  font-weight: normal;
+  font-size: 0.8em;
+  padding-left: 3em;
+}
+#DateTextSongCard {
+  padding-left: 2.5em;
+  opacity: 50%;
+}
+
+.RCard {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  padding-right: 0em;
+  align-items: center;
+}
+
+.RCard > img {
+  object-fit: cover;
+  filter: invert(1);
+  width: 1.3em;
+  transform: rotate(180deg) scaleY(-1);
+  opacity: 60%;
+  padding: 8px;
+}
+
+.RCard:active > img {
+  background-color: #999;
+  border-radius: 100%;
+}

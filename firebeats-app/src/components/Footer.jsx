@@ -53,7 +53,7 @@ export function Footer() {
                 </div>
 
                 <div className="FFooter">
-                    <p>Desenvolvido e mantido por <br/> RAIDER SOFTWARE E TECNOLOGIA - CNPJ: 54623100104</p>
+                    <p>© FIREBEATS by Asfro<br/>Portal de Cultura e Inclusão Periférica 2022 - 2023</p>
                 </div>
 
             </div>

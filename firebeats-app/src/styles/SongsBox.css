@@ -68,7 +68,7 @@
 .RCard > img {
   object-fit: cover;
   filter: invert(1);
-  width: 1.3em;
+  width: 1.5em;
   transform: rotate(180deg) scaleY(-1);
   opacity: 60%;
   padding: 8px;

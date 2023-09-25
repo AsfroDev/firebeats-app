@@ -6,74 +6,12 @@
   align-items: center;
 }
 
-.Top {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.Mid {
-  width: 100%;
-  max-width: 900px;
-  padding: 1rem 0;
-  padding-bottom: 0;
-}
-
-.TopInside {
-  width: 100%;
-  max-width: 1280px;
-  padding: 1rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.LeftHeadear {
-  padding: 0 1em;
-  display: flex;
-  align-items: center;
-}
-
-.LeftHeadear>img {
-  aspect-ratio: 1/1;
-  width: 3rem;
-  cursor: pointer;
-}
-
-.LeftHeadear>h2 {
-  font-size: 1.5rem;
-  opacity: 95%;
-}
-
-.RightHeader {
-  padding: 0 1.2em;
-  display: flex;
-  align-items: center;
-  gap: 1em;
-}
-
-.HeadButton {
+.ButtonTransparent {
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-.HeadButton>img {
-  object-fit: cover;
-  filter: invert(1);
-  width: 2.5em;
-  aspect-ratio: 1/1;
-}
-
-.CartButton {
-  opacity: 89%;
-}
-
-.ThemeButton>img {
-  object-fit: cover;
-  filter: invert(1);
-  width: 2.0em;
-  aspect-ratio: 1/1;
-  transform: translateY(2px) rotate(-140deg);
+.ButtonTransparentActivated {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
 }

@@ -1,48 +1,52 @@
+* {
+  color: rgba(255, 255, 255, 0.87);
+}
+
 .MediaLinks {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    overflow-x: scroll;
-  }
-  
-  .MediaList {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-    overflow-x: scroll;
-  }
-  
-  .BoxMedia {
-    aspect-ratio: 12/9;
-    min-width: 200px;
-    background-color: #222;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    padding: 1em;
-  }
-  
-  .BoxMedia > h1 {
-    margin-bottom: 0em;
-  }
-  
-  .BoxMedia > h3 {
-    margin: 0;
-    font-size: 1.2rem;
-    line-height: 1.2em;
-    opacity: 98%;
-  }
-  
-  .BoxMedia > h2 {
-    max-width: 60%;
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.2em;
-    opacity: 98%;
-    background-color: none;
-    border-radius: 10px;
-    padding: 0.8em;
-    padding-left: 0;
-    text-align: left;
-  }
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  overflow-x: scroll;
+}
+
+.MediaList {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  overflow-x: scroll;
+}
+
+.BoxMedia {
+  aspect-ratio: 12/9;
+  min-width: 200px;
+  background-color: #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1em;
+}
+
+.BoxMedia > h1 {
+  margin-bottom: 0em;
+}
+
+.BoxMedia > h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2em;
+  opacity: 98%;
+}
+
+.BoxMedia > h2 {
+  max-width: 60%;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2em;
+  opacity: 98%;
+  background-color: none;
+  border-radius: 10px;
+  padding: 0.8em;
+  padding-left: 0;
+  text-align: left;
+}

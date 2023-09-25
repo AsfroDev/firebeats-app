@@ -53,7 +53,7 @@ export function Footer() {
                 </div>
 
                 <div className="FFooter">
-                    <p>© FIREBEATS by Asfro<br/>Portal de Cultura e Inclusão Periférica 2022 - 2023</p>
+                    <p>© FIREBEATS by Asfro<br/>Portal de Cultura e Inclusão 2022 - 2023</p>
                 </div>
 
             </div>

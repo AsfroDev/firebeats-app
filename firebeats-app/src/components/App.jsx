@@ -4,6 +4,7 @@ import { Footer } from "./Footer.jsx";
 
 
 import "../styles/App.css";
+import "../styles/Header.css";
 import "../styles/Footer.css";
 
 

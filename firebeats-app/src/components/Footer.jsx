@@ -5,7 +5,7 @@ export function Footer() {
 
                 <div className="TFooter">
                     <img src="icon_fire_100.png" alt="" />
-                    <h1>Fire Beats</h1>
+                    <h1>Firebeats</h1>
                 </div>
 
                 <div className="Mfooter">
@@ -45,6 +45,7 @@ export function Footer() {
                             <a href="">Bussines</a>
                             <a href="">Parceiros</a>
                             <a href="">Sobre</a>
+                            <a href="">Envie seu Comentário</a>
                         </div>
                     </div>
 
@@ -53,7 +54,7 @@ export function Footer() {
                 </div>
 
                 <div className="FFooter">
-                    <p>© FIREBEATS by Asfro<br/>Portal de Cultura e Inclusão 2022 - 2023</p>
+                    <p>© FIREBEATS by Asfro<br/>Portal de Cultura e Visibilidade 2022 - 2023</p>
                 </div>
 
             </div>

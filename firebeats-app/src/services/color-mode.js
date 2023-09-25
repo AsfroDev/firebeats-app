@@ -14,6 +14,8 @@ export function ToogleColorMode() {
   } else {
     setColorTo--;
   }
+
+  console.log(setColorTo)
 }
 
 //0 = DARK    1 = LIGHT

@@ -8,12 +8,6 @@ export function SongsBox() {
 
       <div className="Container SongsBox">
         <SongCard />
-        <SongCard />
-        <SongCard />
-        <SongCard />
-        <SongCard />
-        <SongCard />
-        <SongCard />
       </div>
     </>
   );
@@ -21,20 +15,118 @@ export function SongsBox() {
 
 export function SongCard() {
   return (
-    <div className="SongCard">
-      <div className="LCard"></div>
+    <>
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song1.jpeg")` }}></div>
 
-      <div className="MCard">
-        <p className="TittleTextSongCard">Título da Faixa</p>
-        <p>Autor</p>
-        <p className="DateTextSongCard" id="DateTextSongCard">
-          08/02/1996
-        </p>
+        <div className="MCard">
+          <p className="TittleTextSongCard">Revolve</p>
+          <p>IndigoBeats</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            25/09/2023
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
       </div>
 
-      <div className="RCard">
-        <img src="return.png" alt="Like-Heart" />
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song2.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Sphere</p>
+          <p>Deployer</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            14/04/2022
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
       </div>
-    </div>
+
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song3.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Rebirth</p>
+          <p>Asfrotype</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            08/02/2021
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
+      </div>
+
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song4.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Bem e Mal</p>
+          <p>Vitinho da 12</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            14/07/2023
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
+      </div>
+
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song5.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Waveform</p>
+          <p>Asfrotype</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            02/01/2023
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
+      </div>
+
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song6.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Já amei</p>
+          <p>Vulgo Triip</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            25/09/2023
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
+      </div>
+
+      <div className="SongCard">
+        <div className="LCard" style={{ backgroundImage: `url("./public/covers/song7.jpeg")` }}></div>
+
+        <div className="MCard">
+          <p className="TittleTextSongCard">Sentidos</p>
+          <p>Asfrotype</p>
+          <p className="DateTextSongCard" id="DateTextSongCard">
+            28/08/2023
+          </p>
+        </div>
+
+        <div className="RCard">
+          <img src="return.png" alt="Like-Heart" />
+        </div>
+      </div>
+    </>
   );
 }

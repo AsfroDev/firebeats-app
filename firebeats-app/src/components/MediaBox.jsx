@@ -14,51 +14,19 @@ export function MediaBox() {
   );
 }
 
-import { useEffect, useRef } from "react";
-
 export function MediaLinks() {
-  useEffect(() => {
-    document.addEventListener("click", handleClickOutside, true);
-  }, []);
-
-  const refMediaLinkButton = useRef(null);
-
-  const handleClickOutside = (e) => {
-    if (!refMediaLinkButton.current.contains(e.target)) {
-      document
-        .querySelector(".MediaLinkButton")
-        .classList.remove("ButtonTransparentActivated");
-    } else {
-      document
-        .querySelector(".MediaLinkButton")
-        .classList.add("ButtonTransparentActivated");
-    }
-  };
-
   return (
     <div className="MediaLinks">
-      <button
-        className="ButtonTransparent MediaLinkButton"
-        ref={refMediaLinkButton}
-      >
+      <button className="ButtonTransparent ButtonTransparentActivated">
         <p>Recomendado</p>
       </button>
-      <button
-        className="ButtonTransparent MediaLinkButton"
-        ref={refMediaLinkButton}
-      >
+      <button className="ButtonTransparent">
         <p>Trending</p>
       </button>
-      <button
-        className="ButtonTransparent MediaLinkButton"
-        ref={refMediaLinkButton}
-      >
+      <button className="ButtonTransparent">
         <p>Bussines</p>
       </button>
-      <button
-        className="ButtonTransparent MediaLinkButton"
-        ref={refMediaLinkButton}
-      >
+      <button className=" ButtonTransparent">
         <p>Parceiros</p>
       </button>
     </div>
@@ -76,13 +44,16 @@ export function MediaList() {
 export function BoxMedia() {
   return (
     <>
-      <div className="BoxMedia" style={{backgroundImage: `url(GSintonia.png)`}}>
+      <div
+        className="BoxMedia"
+        style={{ backgroundImage: `url(GSintonia.png)` }}
+      >
         <h3>Nova Prévia de Gustavo Sintonia</h3>
       </div>
-      <div className="BoxMedia" style={{backgroundImage: `url(guiizao.png)`}}>
+      <div className="BoxMedia" style={{ backgroundImage: `url(guiizao.png)` }}>
         <h3>Guiizão e seus Boombaps</h3>
       </div>
-      <div className="BoxMedia" style={{backgroundImage: `url(brecho.png)`}}>
+      <div className="BoxMedia" style={{ backgroundImage: `url(brecho.png)` }}>
         <h3>Brechó Dquebrada com Novidades</h3>
       </div>
       <div className="BoxMedia">

@@ -76,13 +76,13 @@ export function MediaList() {
 export function BoxMedia() {
   return (
     <>
-      <div className="BoxMedia" style={{backgroundImage: `url("./public/media/GSintonia.png")`}}>
+      <div className="BoxMedia" style={{backgroundImage: `url("./public/GSintonia.png")`}}>
         <h3>Nova Prévia de Gustavo Sintonia</h3>
       </div>
-      <div className="BoxMedia" style={{backgroundImage: `url("./public/media/guiizao.png")`}}>
+      <div className="BoxMedia" style={{backgroundImage: `url("./public/guiizao.png")`}}>
         <h3>Guiizão e seus Boombaps</h3>
       </div>
-      <div className="BoxMedia" style={{backgroundImage: `url("./public/media/brecho.png")`}}>
+      <div className="BoxMedia" style={{backgroundImage: `url("./public/brecho.png")`}}>
         <h3>Brechó Dquebrada com Novidades</h3>
       </div>
       <div className="BoxMedia">

@@ -14,7 +14,7 @@ export function FeedCard() {
       <div className="Container">
         <div
           className="BoxMedia Feedbox"
-          style={{ backgroundImage: `url("./public/GSint2.png")` }}
+          style={{ backgroundImage: `url(GSint2.png)` }}
         >
           <h1>Amortecendo</h1>
           <h2>Essa prévia vai mudar o seu dia</h2>
@@ -24,7 +24,7 @@ export function FeedCard() {
       <div className="Container">
         <div
           className="BoxMedia Feedbox"
-          style={{ backgroundImage: `url("./public/ClBoys.png")` }}
+          style={{ backgroundImage: `url(ClBoys.png)` }}
         >
           <h1>CL Boys</h1>
           <h2>Conheça os principais destaques da área</h2>
@@ -40,7 +40,7 @@ export function FeedCard() {
         <div
           className="BoxMedia Feedbox"
           style={{
-            backgroundImage: `url("./public/promotion.png")`,
+            backgroundImage: `url(promotion.png)`,
             backgroundSize: `contain`,
           }}
         >
@@ -54,7 +54,7 @@ export function FeedCard() {
           className="BoxMedia Feedbox"
           style={{
             backgroundColor: `#FFA500`,
-            backgroundImage: `url("./public/musicp.png")`,
+            backgroundImage: `url(musicp.png)`,
             backgroundSize: `auto`,
           }}
         >

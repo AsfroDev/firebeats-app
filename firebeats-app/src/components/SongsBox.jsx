@@ -17,7 +17,7 @@ export function SongCard() {
   return (
     <>
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song1.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song1.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Revolve</p>
@@ -33,7 +33,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song2.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song2.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Sphere</p>
@@ -49,7 +49,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song3.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song3.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Rebirth</p>
@@ -65,7 +65,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song4.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song4.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Bem e Mal</p>
@@ -81,7 +81,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song5.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song5.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Waveform</p>
@@ -97,7 +97,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song6.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song6.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Já amei</p>
@@ -113,7 +113,7 @@ export function SongCard() {
       </div>
 
       <div className="SongCard">
-        <div className="LCard" style={{ backgroundImage: `url("./public/song7.jpeg")` }}></div>
+        <div className="LCard" style={{ backgroundImage: `url(song7.jpeg)` }}></div>
 
         <div className="MCard">
           <p className="TittleTextSongCard">Sentidos</p>
